@@ -5,6 +5,7 @@ import { atualizar, buscar, cadastrar } from "../../../services/Service";
 
 function FormCategoria() {
 
+    
     const navigate = useNavigate();
 
     const [categoria, setCategoria] = useState<Categoria>({} as Categoria)
