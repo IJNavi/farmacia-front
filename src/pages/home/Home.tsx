@@ -21,7 +21,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center ">
+                    <div className="flex justify-end ">
                         <img
                             src="https://img.freepik.com/vetores-gratis/colecao-ingenua-de-adesivos-de-farmacia_23-2150804508.jpg"
                             alt="Imagem Página Home"
