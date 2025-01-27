@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <>
@@ -5,14 +7,14 @@ function Navbar() {
             			   bg-indigo-900 text-white'>
             
                 <div className="container flex justify-between text-lg">
-                    Farmácia
+                    <Link to='/home' className="text-2xl font-bold hover:text-blue-300">Farmácia</Link>
 
                     <div className='flex gap-4'>
-                        <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Produtos</button>
-                        <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Categorias</button>
-                        <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Cadastrar Categorias</button>
-                        <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Cadastrar Produtos</button>
-                        <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Sair</button>
+                        <button className="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Produtos</button>
+                        <button className="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Categorias</button>
+                        <button className="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Cadastrar Categorias</button>
+                        <button className="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Cadastrar Produtos</button>
+                        <button className="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Sair</button>
                     </div>
                 </div>
             </div>
