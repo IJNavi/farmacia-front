@@ -16,7 +16,7 @@ function Home() {
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                    Novo Produto
+                                                                   <button classname="px-4 py-2 rounded-md bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-white">Novo Produto</button>
                             </div>
                         </div>
                     </div>
