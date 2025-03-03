@@ -38,13 +38,13 @@ Este é o front-end desenvolvido para consumir a API CRUD de Farmácia. A aplica
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/IvanBarbosa/Frontend-CRUD-Farmacia.git
+   git clone https://github.com/IJNavi/farmacia-front.git
    ```
 
 2. **Acesse o diretório do projeto:**
 
    ```bash
-   cd Frontend-CRUD-Farmacia
+   cd farmacia-front
    ```
 
 3. **Instale as dependências:**
